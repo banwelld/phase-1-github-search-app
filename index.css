@@ -11,3 +11,23 @@
 ul {
   list-style: none;
 }
+
+.user-avatar {
+  max-width: 160px;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: column; /* Align items in a column */
+  align-items: center;    /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  text-align: center;  
+}
+
+.user-list-item {
+  background-color: lightslategray;
+  width: 200px;
+  box-shadow: 1px 1px 5px 3px darkslateblue;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+}
